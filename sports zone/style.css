@@ -1,0 +1,79 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    min-height: 1800px;
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    margin-top: 65px;
+}
+
+h2 {
+    color: crimson;
+    margin-top: 40px;
+}
+
+p {
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+.score-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 14px 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.player-skibidi {
+    position: relative;
+    display: inline-block;
+    margin: 15p;
+}
+
+.player-card {
+    background-color: white;
+    border: 2px solid gold;
+    font-weight: bolder;
+    padding: 20px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.winner-badge {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background-color: gold;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.league-lable {
+    position: sticky;
+    top: 52px;
+    background: aquamarine;
+    color: red;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.player-item {
+    background-color: aqua;
+    border: 2px solid crimson;
+    padding: 10px 20px;
+    margin: 8px 0;
+    width: 220px;
+    border-radius: 8px;
+}

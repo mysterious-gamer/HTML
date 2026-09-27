@@ -1,0 +1,17 @@
+#intro {
+    background-color: lightskyblue;
+}
+
+footer {
+    background-color: red;
+}
+
+body {
+    background-color: deeppink;
+}
+
+#intro,
+footer,
+body {
+    border: 1px solid black;
+}
